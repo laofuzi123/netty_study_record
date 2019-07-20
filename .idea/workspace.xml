@@ -48,133 +48,6 @@
       <change afterPath="$PROJECT_DIR$/../mybatisDemo1/src/main/java/com/example/mybatis1/demo/appConfig/AppConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mybatisDemo1/src/main/java/com/example/mybatis1/demo/dao/Order.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mybatisDemo1/src/main/java/com/example/mybatis1/demo/spring/LcBeanFactoryPostProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIOTest13_in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIOTest13_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NIOTest9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService-remote" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/ttypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/niotest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/niotest3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/grpc/GrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/grpc/GrpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/grpc/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/ex/TestHttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/ex/TestServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/ex/TestServerInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyByteToLongDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyLongToByteEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/PersonProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/protobuf2netty/MyProtoBufHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/protobuf2netty/MyProtoBufInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/protobuf2netty/MyProtoBufServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyDataInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyServerChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/webSockte/MyWebSockteServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/webSockte/MyWebSockteServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/webSockte/MyWebSockteServerTextFramesHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponseListOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentServiceGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/protobuf/DataInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/protobuf/ProtoBufTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/thrift/ServicePersonImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/thrift/ThriftClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/thrift/ThriftServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/NewIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/NewIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/OldClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/OldServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thrift/generated/DataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thrift/generated/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thrift/generated/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/Stud.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/protobuf/Student.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../stateMachine/src/main/java/com/statemachine/demo/common/Events.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../stateMachine/src/main/java/com/statemachine/demo/common/States.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/aop/ProxyTest.java" afterDir="false" />
@@ -182,6 +55,7 @@
       <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/common/interfaceService/HelloServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/designPatterns/AbstractSignService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/jike/MergerSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mineClearance/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mineClearance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mineClearance/src/main/java/lc/com/SweepBySwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/src/main/java/lc/com/SweepBySwing.java" afterDir="false" />
@@ -877,7 +751,7 @@
     <property name="SearchEverywhereHistoryKey" value="LengthFi&#9;PSI&#9;JAVA://io.netty.handler.codec.LengthFieldBasedFrameDecoder&#10;Replaying&#9;PSI&#9;JAVA://io.netty.handler.codec.ReplayingDecoder&#10;ByteToM&#9;PSI&#9;JAVA://io.netty.handler.codec.ByteToMessageDecoder&#10;RefeC&#9;PSI&#9;JAVA://io.netty.util.ReferenceCounted&#10;ByteBuf&#9;FILE&#9;jar:///Users/mac/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/buffer/ByteBuf.java&#10;InboundHand&#9;PSI&#9;JAVA://io.netty.channel.ChannelInboundHandlerAdapter&#10;PendingRegistrationPromise&#9;PSI&#9;JAVA://io.grpc.netty.shaded.io.netty.bootstrap.AbstractBootstrap.PendingRegistrationPromise&#10;ServerSocketChannel&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;NioServerSocketChannel&#9;PSI&#9;JAVA://io.netty.channel.socket.nio.NioServerSocketChannel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563633321345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563633505726" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1029,12 +903,12 @@
       <workItem from="1560866681718" duration="53453000" />
       <workItem from="1563379664888" duration="84000" />
       <workItem from="1563379778105" duration="173000" />
-      <workItem from="1563379955387" duration="7705000" />
+      <workItem from="1563379955387" duration="7947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132284000" />
+    <option name="totallyTimeSpent" value="132526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1341" height="806" extended-state="0" />
