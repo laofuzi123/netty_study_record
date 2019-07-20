@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b9d5181-2617-4df6-8668-5ce2dbfb904c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/config/rpc-invoke-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/AbortPolicyWithReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageRecvChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageRecvExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageRecvHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageRecvInitializeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageSendChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageSendExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageSendHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageSendInitializeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/MessageSendProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/RpcServerLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/core/RpcThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/customAnnotations/interfaceRPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/dynamicPlan/DynamicPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/dynamicPlan/MoneyAllot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/folderSystem/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/folderSystem/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/folderSystem/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/model/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/serialize/RpcSerializeProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/servicebean/CalcParallelRequestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/servicebean/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/servicebean/CalculateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/servicebean/CalculateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/servicebean/CalculateTestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/servicebean/RpcParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/utils/EnumOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/utils/FieldParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/utils/QueryDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/rpc/demo/demo/utils/TableParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/test/java/com/rpc/demo/demo/FolderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/src/test/java/com/rpc/demo/demo/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyRPC-master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NettyRPC-master/src/test/java/com/newlandframework/test/Test/CompletableFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/utils/EnumOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/utils/FieldParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/utils/QueryDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/utils/TableParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle-demo/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo1/src/main/java/com/example/mybatis1/demo/appConfig/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo1/src/main/java/com/example/mybatis1/demo/dao/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisDemo1/src/main/java/com/example/mybatis1/demo/spring/LcBeanFactoryPostProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOTest13_in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOTest13_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOTest9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService-remote" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/PersonService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen-py/py/thrift/generated/ttypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/niotest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/niotest3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/grpc/GrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/grpc/GrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/grpc/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/ex/TestHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/ex/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/ex/TestServerInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/PersonProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/protobuf2netty/MyProtoBufHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/protobuf2netty/MyProtoBufInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/protobuf2netty/MyProtoBufServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/sixthexample/MyProtoBufServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/talkHouse/MyServerChatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/webSockte/MyWebSockteServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/webSockte/MyWebSockteServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/netty/webSockte/MyWebSockteServerTextFramesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/MyResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StreamResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponseListOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/proto/StudentServiceGrpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/protobuf/DataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/protobuf/ProtoBufTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/thrift/ServicePersonImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/thrift/ThriftClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/thrift/ThriftServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/NewIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/NewIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/OldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/OldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thrift/generated/DataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thrift/generated/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thrift/generated/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Stud.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protobuf/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateMachine/src/main/java/com/statemachine/demo/common/Events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateMachine/src/main/java/com/statemachine/demo/common/States.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/aop/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/aop/UserManagerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/common/interfaceService/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/designPatterns/AbstractSignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rpcDemo/src/main/java/jike/MergerSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mineClearance/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mineClearance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mineClearance/src/main/java/lc/com/SweepBySwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/src/main/java/lc/com/SweepBySwing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mineClearance/target/classes/lc/com/SweepBySwing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/target/classes/lc/com/SweepBySwing$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mineClearance/target/classes/lc/com/SweepBySwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../mineClearance/target/classes/lc/com/SweepBySwing.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_ex2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_ex2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_ex2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1286588611">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="13" />
+          <entry key="gradle" value="9" />
+          <entry key="html" value="1" />
+          <entry key="java" value="396" />
+          <entry key="proto" value="7" />
+          <entry key="thrift" value="1" />
+          <entry key="txt" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="13" />
+          <entry key="Groovy" value="9" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="396" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PROTO" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="14" />
+          <entry key="gradle" value="95" />
+          <entry key="html" value="574" />
+          <entry key="java" value="18461" />
+          <entry key="proto" value="1463" />
+          <entry key="thrift" value="463" />
+          <entry key="txt" value="57" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="95" />
+          <entry key="HTML" value="574" />
+          <entry key="JAVA" value="18461" />
+          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="PROTO" value="1463" />
+          <entry key="Thrift" value="463" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>group</find>
+      <find>group(</find>
+      <find>StudentServiceGrpc</find>
+      <find>position(</find>
+      <find>decoder</find>
+      <find>decode(</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/gen-py</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/lc</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/opt/gradle/gradle-4.10.3" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.10.3" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="netty_ex2" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="netty_ex2" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'netty_ex2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'netty_ex2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'netty_ex2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'netty_ex2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files from compile dependencies for includes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractIncludeTestProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files from compile dependencies for includes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractIncludeProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files/dependencies specified by 'protobuf' configuration" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Proto source for 'main'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'netty_ex2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'netty_ex2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'netty_ex2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'netty_ex2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Proto source for 'test'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateTestProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files/dependencies specified by 'protobuf' configuration" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractTestProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'netty_ex2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4680183893000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2978964179" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3269184434" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-gradle-plugin/0.8.0/8bc660f3b5b2648c3804e45e4a1f433700472e3e/protobuf-gradle-plugin-0.8.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gradle/osdetector-gradle-plugin/1.4.0/a6bfa3b8bc6b15b8df90893876782dab3096b68f/osdetector-gradle-plugin-1.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/kr.motd.maven/os-maven-plugin/1.4.0.Final/fb2ecdce79f677ee32680bf825c26de480fe46b/os-maven-plugin-1.4.0.Final.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/3.2.1/305cea4e9a89b12c08008fea079fcea2dda34eca/maven-plugin-api-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.2.1/328a3c5cfaf9b2832e6e1d21c76fcefe01e01fde/maven-model-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.2.1/227e0c0d3b9b25dd9fce0a74b88ec212026a0fe2/maven-artifact-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.plexus/0.0.0.M5/8818cc5a4d2afde2fbc87c2a78cf1ebf5719a869/org.eclipse.sisu.plexus-0.0.0.M5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.enterprise/cdi-api/1.0/44c453f60909dfc223552ace63e05c694215156b/cdi-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonatype.sisu/sisu-guice/3.1.0/97c87d15d749c86b2be1b9809b28321a1d926c7f/sisu-guice-3.1.0-no_aop.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.0.0.M5/4f6bda3f528c60a12e70db2e7a3feee539dcc8cd/org.eclipse.sisu.inject-0.0.0.M5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.4/ef38ff5c25f83a4a02fcd9843d85f3e47012873e/plexus-classworlds-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="netty_ex2" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/ide" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/platform-native" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/reporting" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/language-groovy" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/build-option" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/launcher" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/platform-base" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/announce" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/signing" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/core" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/installation-beacon" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/jvm-services" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/native" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/tooling-api" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/platform-play" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/ivy" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/wrapper" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/process-services" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/plugins" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/antlr" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/plugin-use" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/language-jvm" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/maven" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/testing-base" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/resources" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/version-control" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/osgi" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/testing-junit-platform" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/resources-http" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/internal-testing" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/composite-builds" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/model-groovy" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/test-kit" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/docs" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/cli" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/build-init" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/ear" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/jacoco" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/persistent-cache" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/build-comparison" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/publish" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/platform-jvm" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/resources-sftp" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/base-services" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/model-core" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/scala" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/diagnostics" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/dependency-management" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/ide-play" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/workers" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/code-quality" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/language-java" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/build-cache" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/plugin-development" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/core-api" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/javascript" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/resources-gcs" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/testing-native" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/ide-native" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/base-services-groovy" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/tooling-native" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/messaging" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/testing-jvm" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/logging" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/language-scala" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/language-native" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/resources-s3" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/src/build-cache-http" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-native-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-jvm-services-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-docs-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-wrapper-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-process-services-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/ant-1.9.11.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/groovy-all-2.4.15.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-cli-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-build-cache-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/ant-launcher-1.9.11.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-persistent-cache-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-api-metadata-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-launcher-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-model-groovy-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-resources-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-base-services-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-runtime-api-info-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-tooling-api-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-core-api-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-logging-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-build-option-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-installation-beacon-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-messaging-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-core-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-model-core-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/gradle-base-services-groovy-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-plugins-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-ide-play-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-tooling-native-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-testing-jvm-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-testing-native-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-tooling-api-builders-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-reporting-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-platform-native-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-scala-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-ide-native-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-platform-play-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-ide-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-platform-jvm-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-dependency-management-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-javascript-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-language-jvm-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-plugin-development-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-composite-builds-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-osgi-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-language-scala-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-test-kit-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-publish-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-plugin-use-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-jacoco-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-resources-sftp-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-language-native-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-resources-http-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-resources-gcs-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-build-init-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-testing-junit-platform-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-build-comparison-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-resources-s3-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-diagnostics-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-build-cache-http-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-testing-base-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-platform-base-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-maven-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-antlr-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-language-groovy-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-signing-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-ear-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-workers-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-ivy-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-version-control-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-announce-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-language-java-4.10.3.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/opt/gradle/gradle-4.10.3/lib/plugins/gradle-code-quality-4.10.3.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest3.java" />
+        <option value="$PROJECT_DIR$/niotest.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest9.java" />
+        <option value="$PROJECT_DIR$/NIOTest9.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest12.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOClient.java" />
+        <option value="$PROJECT_DIR$/NIOTest13_in.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/OldServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/OldClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/NewIOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/zerocopy/NewIOClient.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyLongToByteEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyByteToLongDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerHandler2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/PersonProtocol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientInitializer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1341" />
+    <option name="height" value="806" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="netty_ex2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_ex2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="LengthFi&#9;PSI&#9;JAVA://io.netty.handler.codec.LengthFieldBasedFrameDecoder&#10;Replaying&#9;PSI&#9;JAVA://io.netty.handler.codec.ReplayingDecoder&#10;ByteToM&#9;PSI&#9;JAVA://io.netty.handler.codec.ByteToMessageDecoder&#10;RefeC&#9;PSI&#9;JAVA://io.netty.util.ReferenceCounted&#10;ByteBuf&#9;FILE&#9;jar:///Users/mac/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/buffer/ByteBuf.java&#10;InboundHand&#9;PSI&#9;JAVA://io.netty.channel.ChannelInboundHandlerAdapter&#10;PendingRegistrationPromise&#9;PSI&#9;JAVA://io.grpc.netty.shaded.io.netty.bootstrap.AbstractBootstrap.PendingRegistrationPromise&#10;ServerSocketChannel&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;NioServerSocketChannel&#9;PSI&#9;JAVA://io.netty.channel.socket.nio.NioServerSocketChannel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563633321345" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/lc/proto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lc.netty.handler3" />
+      <recent name="com.lc.netty.handler2" />
+      <recent name="com.lc.netty.handler" />
+      <recent name="com.lc.netty.sixthexample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/lc/proto" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyClient (2)">
+    <configuration name="MyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.handler2.MyClient" />
+      <module name="netty_ex2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.handler2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.handler3.MyClient" />
+      <module name="netty_ex2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.handler3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.handler.MyClient" />
+      <module name="netty_ex2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.handler.MyServer" />
+      <module name="netty_ex2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.handler3.MyServer" />
+      <module name="netty_ex2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.handler3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.handler2.MyServer" />
+      <module name="netty_ex2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.handler2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyServer (1)" />
+      <item itemvalue="Application.MyClient" />
+      <item itemvalue="Application.MyServer (2)" />
+      <item itemvalue="Application.MyClient (1)" />
+      <item itemvalue="Application.MyClient (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyClient (2)" />
+        <item itemvalue="Application.MyServer (2)" />
+        <item itemvalue="Application.MyClient (1)" />
+        <item itemvalue="Application.MyServer (2)" />
+        <item itemvalue="Application.MyClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b9d5181-2617-4df6-8668-5ce2dbfb904c" name="Default Changelist" comment="" />
+      <created>1559394997085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559394997085</updated>
+      <workItem from="1559395000070" duration="16589000" />
+      <workItem from="1559462105448" duration="8521000" />
+      <workItem from="1559654142565" duration="11460000" />
+      <workItem from="1560064137363" duration="4068000" />
+      <workItem from="1560171528952" duration="30231000" />
+      <workItem from="1560866681718" duration="53453000" />
+      <workItem from="1563379664888" duration="84000" />
+      <workItem from="1563379778105" duration="173000" />
+      <workItem from="1563379955387" duration="7705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="132284000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1341" height="806" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.22248244" visible="true" weight="0.2317167" />
+      <window_info id="Structure" order="1" sideWeight="0.77751756" side_tool="true" weight="0.30990174" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7044818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36554623" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3280116" />
+      <window_info active="true" anchor="bottom" x="96" y="324" width="1323" height="226" id="Terminal" order="8" visible="true" weight="0.46778712" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32946298" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32946298" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32913166" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2494331" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32955405" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32948422" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" x="0" y="0" width="291" height="581" id="Documentation" order="10" side_tool="true" weight="0.7575058" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lc/grpc/GrpcClient.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lc/grpc/StudentServiceImpl.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lc/nio/NIOTest12.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/channel/embedded/EmbeddedEventLoop.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/channel/embedded/EmbeddedEventLoop.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>typeParams[i].getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>typeParams.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentClass.getSuperclass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.get(typeParamName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>promise.channel().unsafe()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>promise.channel()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>next()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>config().group()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>isActive()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/bytebuf/BytebufTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="246" column="3" lean-forward="true" selection-start-line="246" selection-start-column="3" selection-end-line="246" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="214" column="21" lean-forward="true" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/util/ReferenceCounted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/handler/codec/memcache/DefaultMemcacheContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/util/IllegalReferenceCountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="270" column="13" selection-start-line="270" selection-start-column="13" selection-end-line="270" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/util/AbstractReferenceCounted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.21.0/bb9b1bd872f803d53254af6b5aeaa665b67bd75c/grpc-netty-shaded-1.21.0.jar!/io/grpc/netty/shaded/io/netty/handler/codec/ByteToMessageDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="499" selection-start-line="499" selection-end-line="499" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyLongToByteEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/handler/codec/MessageToByteEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/util/internal/TypeParameterMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="e#6270#6271#0" expanded="true" />
+            <element signature="e#6321#6322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3145">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/util/internal/NoOpTypeParameterMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler/MyByteToLongDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="212" column="22" selection-start-line="212" selection-start-column="22" selection-end-line="212" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Byte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/socket/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/heartbeat/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.15.Final/d4bb115e8980f5dde55be6061a512d9a7e69033a/netty-all-4.1.15.Final-sources.jar!/io/netty/handler/codec/ReplayingDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="267" column="40" selection-start-line="267" selection-start-column="39" selection-end-line="267" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/PersonProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyPersonDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" column="101" lean-forward="true" selection-start-line="21" selection-start-column="101" selection-end-line="21" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler2/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lc/netty/handler3/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>netty_ex2_main|netty_ex2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.google.android:annotations:4.1.1.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

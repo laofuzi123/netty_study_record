@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package com.lc.proto;
+
+option java_package = "com.lc.proto";
+option java_outer_classname = "StudentProto";
+option java_multiple_files = true;
+
+
+service StudentService {
+    // 客户端 发出一个请求 服务器端返回一个响应
+    rpc GetRealNameByUsername(MyRequest) returns (MyResponse){}
+    // 客户端 发出一个请求 服务器端返回一个流式的响应
+    rpc GetStudentsByAge(StudentRequest) returns (stream StudentResponse){}
+    // 客户端 发出一个流式请求 服务器返回一个响应List
+    rpc GetStudentWrapperByAges(stream StudentRequest) returns (StudentResponseList){}
+    // 客户端 发出一个流式请求 服务器响应一个流式请求
+    rpc BiTalk(stream StreamRequest) returns (stream StreamResponse) {}
+}
+
+message MyRequest {
+    string username = 1;
+}
+
+message MyResponse {
+    string realname = 2;
+}
+
+message StudentRequest{
+    int32 age = 1;
+}
+
+message StudentResponse {
+    string name = 1;
+    int32 age = 2;
+    string city = 3;
+}
+
+message StudentResponseList {
+    repeated StudentResponse studentResponse = 1;
+}
+
+message StreamRequest {
+    string request_info = 1;
+}
+
+message StreamResponse {
+    string response_info = 1;
+}
